@@ -1,11 +1,17 @@
 <?php
 
-require    'autoloader.php'  ;
+#var_dump ($_SERVER) ;
+echo $_get['a'] ;
+echo "<br>" ;
+echo $_get['b'] ;
 
-$class1= new Class1() ;
-echo $class1->ime ;
+# $_POST['a'] ;
+# $_POST['b'] ;
 
-$class2= new Class2() ;
-echo $class2->prezime  ;
+echo "<br>" ;
+echo $_REQUEST['a'] ;
+echo "<br>" ;
+echon $_REQUEST['b'] ;
+
 
 ?>
